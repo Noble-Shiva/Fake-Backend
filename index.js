@@ -15,3 +15,5 @@ app.post('/user', (req, res) => {
 app.listen(5000, () => {
     console.log('App Listening at port 5000')
 });
+
+module.exports = app;
